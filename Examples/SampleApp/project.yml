@@ -1,0 +1,25 @@
+name: SampleApp
+options:
+  bundleIdPrefix: com.opsroom
+  deploymentTarget:
+    iOS: "16.0"
+packages:
+  OpsRoom:
+    path: ../..
+targets:
+  SampleApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: SampleApp
+    dependencies:
+      - package: OpsRoom
+        product: OpsRoom
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.opsroom.sample
+      MARKETING_VERSION: "1.0.0"
+      CURRENT_PROJECT_VERSION: "1"
+      SWIFT_VERSION: "6.0"
+      TARGETED_DEVICE_FAMILY: "1,2"
+      INFOPLIST_FILE: SampleApp/Info.plist
+      DEVELOPMENT_TEAM: ""
