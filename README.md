@@ -10,7 +10,7 @@ Swift Package for iOS 16+. Ships remote config for forced upgrades, maintenance 
 ### Swift Package Manager (recommended)
 
 In Xcode: **File → Add Package Dependencies** →  
-`https://github.com/getopsroom/opsroom-ios`
+`https://github.com/chaseacton/opsroom-ios`
 
 Or in `Package.swift`:
 
