@@ -34,14 +34,9 @@ On first launch you should see the **force update** modal (app v1.0.0, API minim
 
 Use this when AWS deploy or Docker on another machine is unavailable, as long as you can run the API on your Mac.
 
-### 1. Start the stack ([opsroom](https://github.com/chaseacton/opsroom) monorepo)
+### 1. Start a local config API
 
-```bash
-pnpm dev:db          # DynamoDB Local (Docker)
-pnpm db:seed         # demo app + key "dev"
-pnpm dev:api         # http://127.0.0.1:3001
-pnpm dev             # dashboard http://localhost:3000
-```
+Run the OpsRoom config API on your Mac (Docker + local DynamoDB), then seed the demo app with API key `dev`. Point the dashboard at the same API if you want to edit policy from the UI.
 
 ### 2. Point SampleApp at localhost
 

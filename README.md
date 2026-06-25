@@ -2,7 +2,7 @@
 
 Swift Package for iOS 16+. Ships remote config for forced upgrades, maintenance mode, announcements, release notes, rating prompts, and micro surveys.
 
-- **Dashboard & API:** [tryopsroom.com](https://www.tryopsroom.com) · backend repo [chaseacton/opsroom](https://github.com/chaseacton/opsroom)
+- **Dashboard:** [tryopsroom.com](https://www.tryopsroom.com)
 - **Sample app:** [`Examples/SampleApp`](Examples/SampleApp)
 
 ## Installation
@@ -23,7 +23,7 @@ targets: [
 ]
 ```
 
-### Local path (monorepo / fork)
+### Local path
 
 ```swift
 .package(path: "../opsroom-ios")
